@@ -160,7 +160,8 @@ header *{
     background: url('./images/offer-background.jpg') center center/cover fixed;
     
 }
-#offers .title{
+#offers .title
+,#menu .title{
     text-align: center;
     margin-bottom: 4rem;
 }
@@ -170,7 +171,8 @@ header *{
     margin-bottom: 20px;
 }
 
-#offers .title p{
+#offers .title p
+{
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -201,4 +203,61 @@ header *{
     font-size: 18px;
     font-weight: 600;
     margin-left: 5px;
+}
+#menu{
+    background-color: #f4f4f4;
+    padding-block: 5rem;
+
+}
+#menu .title p{
+    color: #383848;
+}
+#menu .title h2{
+    font-size: 40px;
+    color:#383848;
+    margin-bottom: 20px;
+}
+#menu .menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+#menu .menu-items .menu-item img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+#menu .menu-items .menu-item h3{
+    color: #383848;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+#menu .menu-items .menu-item span{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+#menu .menu-items .menu-item p{
+    
+}
+#menu .btn{
+   
+    display: block;
+    margin: 20px auto 0;
+    background-color: #e4b95b;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+#menu .btn:hover{
+    background-color: #383848;
 }
