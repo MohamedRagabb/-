@@ -261,3 +261,24 @@ header *{
 #menu .btn:hover{
     background-color: #383848;
 }
+#daytime{
+    background: url("./images/daytime_bg.jpeg") center center/cover fixed no-repeat;
+    color: white;
+    text-align: center;
+    padding-block: 30px;
+}
+#daytime .daytime-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+#daytime .daytime-items h3{
+    font-size: 30px;
+    max-width: 20px 0 10px;
+    
+}
+#daytime .daytime-items p{
+    font-weight: 500;
+}
