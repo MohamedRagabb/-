@@ -3,8 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Quicksand", sans-serif;
+}
+.container{
+    
+    max-width: 1100px;
+    margin: auto;
 }
 ul{
     list-style: none;
@@ -26,9 +34,16 @@ a{
     color: white;
     border: 1px solid #fff;
 }
-.btn-p:hover{
+.btn-p:hover , .btn-sc:hover{
     background-color: #e4b95b;
 }
+.btn-sc{
+    color: white;
+    background-color: #383848;
+    margin-top: 25px;
+   
+}
+
 header{
     height: 100vh;
     background: url("./images/home_bg.jpeg") center center/cover no-repeat; 
@@ -91,4 +106,47 @@ header::before{
 }
 header *{
     z-index: 10;
+}
+
+#about{
+    padding-top: 30px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+}
+
+#about .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+#about .title h2{
+    font-size: 40px;
+    color: #383848;
+    margin-bottom: 20px;
+}
+
+#about .title p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#about .about-content img{
+    width: 450px;
+}
+#about .about-content p{
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-indent: 0px;
+    text-align: justify;
+    
 }
